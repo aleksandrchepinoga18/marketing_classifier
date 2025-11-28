@@ -1,0 +1,15 @@
+{
+    "best_threshold": 0.56,
+    "train_f1": 0.9282868525896414,
+    "val_f1": 0.6846846846846847,
+    "test_f1": 0.5192307692307693,
+    "train_roc_auc": 0.9980096976050847,
+    "val_roc_auc": 0.9355871886120997,
+    "test_roc_auc": 0.8972597864768683,
+    "test_pr_auc": 0.5721234466357946,
+    "overfitting_detected": true,
+    "overfitting_f1": true,
+    "overfitting_roc_auc": true,
+    "class_balance_test": 0.1510574018126888,
+    "best_iteration": 597
+}

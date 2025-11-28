@@ -1,0 +1,95 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2205 entries, 0 to 2204
+Data columns (total 34 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   Income                2205 non-null   float64
+ 1   Kidhome               2205 non-null   int64  
+ 2   Teenhome              2205 non-null   int64  
+ 3   Recency               2205 non-null   int64  
+ 4   MntWines              2205 non-null   int64  
+ 5   MntFruits             2205 non-null   int64  
+ 6   MntMeatProducts       2205 non-null   int64  
+ 7   MntFishProducts       2205 non-null   int64  
+ 8   MntSweetProducts      2205 non-null   int64  
+ 9   MntGoldProds          2205 non-null   int64  
+ 10  NumDealsPurchases     2205 non-null   int64  
+ 11  NumWebPurchases       2205 non-null   int64  
+ 12  NumCatalogPurchases   2205 non-null   int64  
+ 13  NumStorePurchases     2205 non-null   int64  
+ 14  NumWebVisitsMonth     2205 non-null   int64  
+ 15  AcceptedCmp3          2205 non-null   int64  
+ 16  AcceptedCmp4          2205 non-null   int64  
+ 17  AcceptedCmp5          2205 non-null   int64  
+ 18  AcceptedCmp1          2205 non-null   int64  
+ 19  AcceptedCmp2          2205 non-null   int64  
+ 20  Complain              2205 non-null   int64  
+ 21  Response              2205 non-null   int64  
+ 22  Age                   2205 non-null   int64  
+ 23  Customer_Days         2205 non-null   int64  
+ 24  marital_Divorced      2205 non-null   int64  
+ 25  marital_Married       2205 non-null   int64  
+ 26  marital_Single        2205 non-null   int64  
+ 27  marital_Together      2205 non-null   int64  
+ 28  marital_Widow         2205 non-null   int64  
+ 29  education_2n Cycle    2205 non-null   int64  
+ 30  education_Basic       2205 non-null   int64  
+ 31  education_Graduation  2205 non-null   int64  
+ 32  education_Master      2205 non-null   int64  
+ 33  education_PhD         2205 non-null   int64  
+dtypes: float64(1), int64(33)
+memory usage: 585.8 KB
+
+
+=== Описательная статистика ===
+              Income      Kidhome     Teenhome      Recency     MntWines    MntFruits  MntMeatProducts  MntFishProducts  MntSweetProducts  MntGoldProds  NumDealsPurchases  NumWebPurchases  NumCatalogPurchases  NumStorePurchases  NumWebVisitsMonth  AcceptedCmp3  AcceptedCmp4  AcceptedCmp5  AcceptedCmp1  AcceptedCmp2     Complain    Response          Age  Customer_Days  marital_Divorced  marital_Married  marital_Single  marital_Together  marital_Widow  education_2n Cycle  education_Basic  education_Graduation  education_Master  education_PhD
+count    2205.000000  2205.000000  2205.000000  2205.000000  2205.000000  2205.000000      2205.000000      2205.000000       2205.000000   2205.000000        2205.000000      2205.000000          2205.000000        2205.000000        2205.000000   2205.000000   2205.000000   2205.000000   2205.000000   2205.000000  2205.000000  2205.00000  2205.000000    2205.000000       2205.000000      2205.000000     2205.000000       2205.000000    2205.000000         2205.000000      2205.000000           2205.000000       2205.000000    2205.000000
+mean    51622.094785     0.442177     0.506576    49.009070   306.164626    26.403175       165.312018        37.756463         27.128345     44.057143           2.318367         4.100680             2.645351           5.823583           5.336961      0.073923      0.074376      0.073016      0.064399      0.013605     0.009070     0.15102    51.095692    2512.718367          0.104308         0.387302        0.216327          0.257596       0.034467            0.089796         0.024490              0.504762          0.165079       0.215873
+std     20713.063826     0.537132     0.544380    28.932111   337.493839    39.784484       217.784507        54.824635         41.130468     51.736211           1.886107         2.737424             2.798647           3.241796           2.413535      0.261705      0.262442      0.260222      0.245518      0.115872     0.094827     0.35815    11.705801     202.563647          0.305730         0.487244        0.411833          0.437410       0.182467            0.285954         0.154599              0.500091          0.371336       0.411520
+min      1730.000000     0.000000     0.000000     0.000000     0.000000     0.000000         0.000000         0.000000          0.000000      0.000000           0.000000         0.000000             0.000000           0.000000           0.000000      0.000000      0.000000      0.000000      0.000000      0.000000     0.000000     0.00000    24.000000    2159.000000          0.000000         0.000000        0.000000          0.000000       0.000000            0.000000         0.000000              0.000000          0.000000       0.000000
+25%     35196.000000     0.000000     0.000000    24.000000    24.000000     2.000000        16.000000         3.000000          1.000000      9.000000           1.000000         2.000000             0.000000           3.000000           3.000000      0.000000      0.000000      0.000000      0.000000      0.000000     0.000000     0.00000    43.000000    2339.000000          0.000000         0.000000        0.000000          0.000000       0.000000            0.000000         0.000000              0.000000          0.000000       0.000000
+50%     51287.000000     0.000000     0.000000    49.000000   178.000000     8.000000        68.000000        12.000000          8.000000     25.000000           2.000000         4.000000             2.000000           5.000000           6.000000      0.000000      0.000000      0.000000      0.000000      0.000000     0.000000     0.00000    50.000000    2515.000000          0.000000         0.000000        0.000000          0.000000       0.000000            0.000000         0.000000              1.000000          0.000000       0.000000
+75%     68281.000000     1.000000     1.000000    74.000000   507.000000    33.000000       232.000000        50.000000         34.000000     56.000000           3.000000         6.000000             4.000000           8.000000           7.000000      0.000000      0.000000      0.000000      0.000000      0.000000     0.000000     0.00000    61.000000    2688.000000          0.000000         1.000000        0.000000          1.000000       0.000000            0.000000         0.000000              1.000000          0.000000       0.000000
+max    113734.000000     2.000000     2.000000    99.000000  1493.000000   199.000000      1725.000000       259.000000        262.000000    321.000000          15.000000        27.000000            28.000000          13.000000          20.000000      1.000000      1.000000      1.000000      1.000000      1.000000     1.000000     1.00000    80.000000    2858.000000          1.000000         1.000000        1.000000          1.000000       1.000000            1.000000         1.000000              1.000000          1.000000       1.000000
+
+=== Пропуски ===
+Income                  0
+Kidhome                 0
+Teenhome                0
+Recency                 0
+MntWines                0
+MntFruits               0
+MntMeatProducts         0
+MntFishProducts         0
+MntSweetProducts        0
+MntGoldProds            0
+NumDealsPurchases       0
+NumWebPurchases         0
+NumCatalogPurchases     0
+NumStorePurchases       0
+NumWebVisitsMonth       0
+AcceptedCmp3            0
+AcceptedCmp4            0
+AcceptedCmp5            0
+AcceptedCmp1            0
+AcceptedCmp2            0
+Complain                0
+Response                0
+Age                     0
+Customer_Days           0
+marital_Divorced        0
+marital_Married         0
+marital_Single          0
+marital_Together        0
+marital_Widow           0
+education_2n Cycle      0
+education_Basic         0
+education_Graduation    0
+education_Master        0
+education_PhD           0
+
+=== Баланс классов ===
+Response
+0    1872
+1     333
+Доля позитивного класса (1): 0.1510
