@@ -40,7 +40,7 @@ python run_all.py
 `python api/app.py`	Запускает Flask API на `http://localhost:5000/predict`
 `python monitoring/simulate_labels.py`	Имитирует появление реальных меток для тестирования мониторинга
 `python monitoring/retrain_if_needed.py`	Проверяет качество модели и data drift, запускает ретрейн при деградации
-<img width="678" height="157" alt="image" src="https://github.com/user-attachments/assets/ed09528d-6a31-42f6-9e12-2e3b24f9e429" />
+
 
 
 🔹 Тестирование API
